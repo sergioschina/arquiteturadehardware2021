@@ -21,6 +21,6 @@
  </OUTPUT_FILES>
  <LABELS>
   <INICIO><FILE>tptemplate.asm</FILE><LINE>13</LINE></INICIO>
-  <LOOP><FILE>tptemplate.asm</FILE><LINE>18</LINE></LOOP>
+  <LOOP><FILE>tptemplate.asm</FILE><LINE>20</LINE></LOOP>
  </LABELS>
 </ASSEMBLER_INFO>
