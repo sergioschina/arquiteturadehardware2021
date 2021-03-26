@@ -1,11 +1,11 @@
 <ASSEMBLER_INFO>
  <VERSION>2.2.7</VERSION>
  <DEVICE>"ATmega328P"</DEVICE>
- <WORKING_DIR>C:\Users\Alice\Git-GitHub\Compilador</WORKING_DIR>
+ <WORKING_DIR>C:\Users\Alice\Git-GitHub\arquiteturadehardware2021\Aula Git\Guilherme Rafael RA171463</WORKING_DIR>
  <INCLUDE_PATH>
   <DIR></DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>template.asm</SOURCE_FILE>
+ <SOURCE_FILE>tptemplate.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>atmega328p.inc</FILE>
  </INCLUDED_FILES>
@@ -20,7 +20,7 @@
   <FILE>template.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <INICIO><FILE>template.asm</FILE><LINE>70</LINE></INICIO>
-  <LOOP><FILE>template.asm</FILE><LINE>72</LINE></LOOP>
+  <INICIO><FILE>tptemplate.asm</FILE><LINE>13</LINE></INICIO>
+  <LOOP><FILE>tptemplate.asm</FILE><LINE>18</LINE></LOOP>
  </LABELS>
 </ASSEMBLER_INFO>

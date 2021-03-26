@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  template.asm Thu Mar 25 18:31:37 2021
+AVRASM ver. 2.2.7  tptemplate.asm Fri Mar 26 14:06:45 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -694,4 +694,5 @@ EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
 CSEG INICIO       00000001
-CSEG LOOP         00000001
+DEF  temp         r16
+CSEG LOOP         00000005

@@ -1,63 +1,10 @@
 
-AVRASM ver. 2.2.7  template.asm Thu Mar 25 18:31:37 2021
+AVRASM ver. 2.2.7  tptemplate.asm Fri Mar 26 14:06:45 2021
 
-template.asm(54): Including file 'atmega328p.inc'
-template.asm(54): Including file 'atmega328p.inc'
+tptemplate.asm(1): Including file 'atmega328p.inc'
+tptemplate.asm(1): Including file 'atmega328p.inc'
                                  
                                  
-                                 ; | Projeto:  TÍTULO																|	
-                                 ; |																					|
-                                 ; | Autor: NOME DO ESTUDANTE AQUI													|
-                                 ; | Idioma: NOME DA LÍNGUA EM QUE O PROGRAMA ESTÁ ESCRITO E							|
-                                 ; |			O NOME DO COMPILADOR USADO PARA COMPILÁ-LO QUANDO FOI TESTADO			|
-                                 ; | Solução: NOME DA SUA SOLUÇÃO ATMEL STUDIO 7 (Template neste exemplo)			|
-                                 ; |																					|
-                                 ; | Projetos: AssemblerTargetTeamplate												|
-                                 ; |																					|
-                                 ; | Para compilar: Explique como compilar este programa	                            |
-                                 ; |																					|
-                                 ; |Exemplo: Para compilar este código, deverá ter o compilador AVRASM2.exe (windows)|
-                                 ; | no prompt de comando (MS-DOS):													|
-                                 ; |																					|
-                                 ; |      avrasm2.exe -fI -o "Teamplate.hex"											|
-                                 ; |						 -m "Teamplate.map"											|
-                                 ; | 					 -l "Teamplate.lss"											|	
-                                 ; |						 -e "Teamplate.eep"											|  
-                                 ; |						 -S "Teamplate.tmp"											|	  
-                                 ; |						 -W+ie  -d "Debug\Teamplate.obj"							|
-                                 ; |						 main.asm													|
-                                 ; |																					|
-                                 ; | Software: NOME E TÍTULO DA CLASSE PARA QUE ESTE PROGRAMA FOI ESCRITO			|
-                                 ; |																					|
-                                 ; | Versão do SO: SEU NÚMERO DE VERSÃO DO PROGRAMA DE COMPUTADOR					|
-                                 ; |																					|
-                                 ; | Plataforma: SEU PROGRAMA DE COMPUTADOR											|
-                                 ; |																					|
-                                 ; | Instrutor: NOME DO INSTRUTOR DO SEU CURSO										|
-                                 ; |																					|
-                                 ; | Data de vencimento: DATA E HORA EM QUE ESTE PROGRAMA É / DEVIA SER				|
-                                 ; | SUBMETIDO																		|
-                                 ; |																					|
-                                 ; + --------------------------------------------------------------------------------+
-                                 ; |																					|
-                                 ; | Descrição: DESCREVA O PROBLEMA DE QUE ESTE PROGRAMA FOI ESCRITO RESOLVER.		|
-                                 ; |																					|
-                                 ; | Entrada: DESCREVA A ENTRADA QUE O PROGRAMA EXIGE.								|
-                                 ; |																					|
-                                 ; | Saída: DESCREVA A SAÍDA QUE O PROGRAMA PRODUZ.									|
-                                 ; |																					|
-                                 ; | Algoritmo: ESBOÇO DA ABORDAGEM USADA PELO PROGRAMA PARA RESOLVER O PROBLEMA.	|
-                                 ; |																					|
-                                 ; | Recursos necessários não incluídos: DESCREVA AQUI QUALQUER REQUISITO DE			|
-                                 ; | A tarefa que o programa não tenta resolver.										|
-                                 ; |																					|
-                                 ; | Erros conhecidos: SE O PROGRAMA NÃO FUNCIONAR CORRETAMENTE EM ALGUNS			|
-                                 ; |					  SITUAÇÕES, DESCREVA AS SITUAÇÕES E PROBLEMAS AQUI.			|
-                                 ; |																					|
-                                 ;  \===============================================================================/
-                                 
-                                 
-                                 .INCLUDE "atmega328p.inc"  ; seu arquivo principal de mapeamento das variáveis   
                                  
                                  ;***** Created: 2011-02-09 12:03 ******* Source: ATmega328P.xml **********
                                  ;*************************************************************************
@@ -1038,23 +985,29 @@ template.asm(54): Including file 'atmega328p.inc'
                                  .device		atmega328P
                                  .list
                                  
-                                 ;============
-                                 ;Declarações:
                                  
                                  
                                  
-                                 .ORG 0x0000              ; instrução inicial, é onde se inicia a memória de programa
-000000 c000                          rjmp INICIO           ; O vetor de reinício: pula para “main”
-                                       ;***coloque suas variáveis e declarações aqui***   
-                                 	;Exemplo: 
-                                 	;.def	temp	=r16
+                                 .ORG 0x0000   
+000000 c000                          rjmp INICIO   
+                                 	.def	temp	=r16
                                   
                                  INICIO:
-                                       ;***código principal vai aqui, inicializações e etc...***
+000001 ef0f                            ldi temp, 0b11111111
+000002 b907                      	  out DDRC, temp
+000003 ef0f                      	  ldi temp, 0b11111111
+000004 b90a                      	  out DDRD, temp
                                  LOOP:
-                                       ;*** rotinas de repetição ***
-000001 cfff                         rjmp LOOP                 
-                                       ;***seus procedimentos de atuação finitas vão aqui aqui o  programa vai finalizar no final***
+000005 e00f                            ldi temp, 0b00001111
+000006 b908                      	  out PORTC, temp
+000007 ef00                      	  ldi temp, 0b11110000
+000008 b908                      	  out PORTC, temp
+000009 e00f                      	  ldi temp, 0b00001111
+00000a b90b                      	  out PORTD, temp
+00000b ef00                      	  ldi temp, 0b11110000
+00000c b90b                      	  out PORTD, temp
+00000d cff7                         rjmp LOOP                 
+                                       
 
 
 RESOURCE USE INFORMATION
@@ -1074,10 +1027,10 @@ counted separately from r26..r31 here.
 "ATmega328P" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:   0 r17:   0 r18:   0 r19:   0 r20:   0 
+r13:   0 r14:   0 r15:   0 r16:  12 r17:   0 r18:   0 r19:   0 r20:   0 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
 r29:   0 r30:   0 r31:   0 
-Registers used: 0 out of 35 (0.0%)
+Registers used: 1 out of 35 (2.9%)
 
 "ATmega328P" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
@@ -1090,21 +1043,21 @@ clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
 cpi   :   0 cpse  :   0 dec   :   0 eor   :   0 fmul  :   0 fmuls :   0 
 fmulsu:   0 icall :   0 ijmp  :   0 in    :   0 inc   :   0 jmp   :   0 
-ld    :   0 ldd   :   0 ldi   :   0 lds   :   0 lpm   :   0 lsl   :   0 
+ld    :   0 ldd   :   0 ldi   :   6 lds   :   0 lpm   :   0 lsl   :   0 
 lsr   :   0 mov   :   0 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
-neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :   0 pop   :   0 
+neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :   6 pop   :   0 
 push  :   0 rcall :   0 ret   :   0 reti  :   0 rjmp  :   2 rol   :   0 
 ror   :   0 sbc   :   0 sbci  :   0 sbi   :   0 sbic  :   0 sbis  :   0 
 sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 
 sei   :   0 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
 sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   0 
 sub   :   0 subi  :   0 swap  :   0 tst   :   0 wdr   :   0 
-Instructions used: 1 out of 113 (0.9%)
+Instructions used: 3 out of 113 (2.7%)
 
 "ATmega328P" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000004      4      0      4   32768   0.0%
+[.cseg] 0x000000 0x00001c     28      0     28   32768   0.1%
 [.dseg] 0x000100 0x000100      0      0      0    2048   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    1024   0.0%
 
