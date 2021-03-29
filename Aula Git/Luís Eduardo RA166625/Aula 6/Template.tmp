@@ -1,7 +1,7 @@
 <ASSEMBLER_INFO>
  <VERSION>2.2.7</VERSION>
  <DEVICE>"ATmega328P"</DEVICE>
- <WORKING_DIR>E:\Faculdade\5SEMESTRE\GIT\arquiteturadehardware\Aula 7\Compilador</WORKING_DIR>
+ <WORKING_DIR>C:\Users\danie\Downloads\Compilador\Compilador2</WORKING_DIR>
  <INCLUDE_PATH>
   <DIR></DIR>
  </INCLUDE_PATH>
@@ -10,14 +10,14 @@
   <FILE>atmega328p.inc</FILE>
  </INCLUDED_FILES>
  <OBJECT_FILES>
-  <FILE>Debug\Teamplate.obj</FILE>
+  <FILE>Debug\Template.obj</FILE>
  </OBJECT_FILES>
  <HEX_FILES>
-  <FILE>Teamplate.hex</FILE>
+  <FILE>Template.hex</FILE>
  </HEX_FILES>
  <OUTPUT_FILES>
-  <FILE>Teamplate.map</FILE>
-  <FILE>Teamplate.lss</FILE>
+  <FILE>Template.map</FILE>
+  <FILE>Template.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
   <INICIO><FILE>template.asm</FILE><LINE>70</LINE></INICIO>
