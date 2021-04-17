@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\delay.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\Debug\TP5 - Giovanna_171886.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TP5 - Giovanna_171886.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TP5 - Giovanna_171886.map</FILE>
+  <FILE>TP5 - Giovanna_171886.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INICIO><FILE>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\main.asm</FILE><LINE>65</LINE></INICIO>
+  <LOOP><FILE>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\main.asm</FILE><LINE>69</LINE></LOOP>
+  <delay_1s><FILE>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\delay.asm</FILE><LINE>1</LINE></delay_1s>
+  <delay_100ms><FILE>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\delay.asm</FILE><LINE>14</LINE></delay_100ms>
+  <delay_10ms><FILE>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\delay.asm</FILE><LINE>27</LINE></delay_10ms>
+  <delay_1ms><FILE>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\delay.asm</FILE><LINE>40</LINE></delay_1ms>
+  <delay_1ms1><FILE>C:\Users\gipim\Desktop\TP5 - Giovanna_171886\TP5 - Giovanna_171886\delay.asm</FILE><LINE>43</LINE></delay_1ms1>
+ </LABELS>
+</ASSEMBLER_INFO>
