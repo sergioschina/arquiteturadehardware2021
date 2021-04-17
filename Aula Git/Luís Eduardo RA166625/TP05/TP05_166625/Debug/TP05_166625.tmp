@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>D:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\delay1s.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\Debug\TP05_166625.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TP05_166625.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TP05_166625.map</FILE>
+  <FILE>TP05_166625.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INICIO><FILE>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\main.asm</FILE><LINE>64</LINE></INICIO>
+  <LOOP><FILE>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\main.asm</FILE><LINE>68</LINE></LOOP>
+  <delay_1000ms><FILE>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\delay1s.asm</FILE><LINE>1</LINE></delay_1000ms>
+  <delay_100ms><FILE>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\delay1s.asm</FILE><LINE>14</LINE></delay_100ms>
+  <delay_10ms><FILE>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\delay1s.asm</FILE><LINE>27</LINE></delay_10ms>
+  <delay_1ms><FILE>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\delay1s.asm</FILE><LINE>40</LINE></delay_1ms>
+  <delay_1ms1><FILE>E:\Faculdade\5SEMESTRE\Arquitetura de Hardware\Assembly\TP05\TP05_166625\TP05_166625\delay1s.asm</FILE><LINE>43</LINE></delay_1ms1>
+ </LABELS>
+</ASSEMBLER_INFO>
