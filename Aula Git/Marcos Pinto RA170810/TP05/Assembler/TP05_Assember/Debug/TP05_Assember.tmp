@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>F:/Microchip\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>F:\Microchip\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>F:/Microchip\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\delay.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\Debug\TP05_Assember.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TP05_Assember.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TP05_Assember.map</FILE>
+  <FILE>TP05_Assember.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INICIO><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\main.asm</FILE><LINE>11</LINE></INICIO>
+  <LOOP><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\main.asm</FILE><LINE>15</LINE></LOOP>
+  <delay_1s><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\delay.asm</FILE><LINE>1</LINE></delay_1s>
+  <delay_100ms><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\delay.asm</FILE><LINE>14</LINE></delay_100ms>
+  <delay_10ms><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\delay.asm</FILE><LINE>27</LINE></delay_10ms>
+  <delay_1ms><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\delay.asm</FILE><LINE>40</LINE></delay_1ms>
+  <delay_1ms1><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP05_Assember\TP05_Assember\delay.asm</FILE><LINE>43</LINE></delay_1ms1>
+ </LABELS>
+</ASSEMBLER_INFO>
