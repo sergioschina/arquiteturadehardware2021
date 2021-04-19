@@ -1,0 +1,18 @@
+<circuit noLinStep="10" speed="1000000" reactStep="50" noLinAcc="5" type="simulide_0.1" animate="0">
+ 
+Oscope-2: 
+<item x="-324" itemtype="Oscope" objectName="Oscope-2" id="Oscope-2" labelx="-16" labelrot="0" Show_id="false" rotation="0" labely="-24" Filter="0.29999999999999999" vflip="1" valLabelx="0" valLabely="0" hflip="1" y="-332" valLabRot="0"/>
+ 
+atmega328-1: 
+<item x="-532" labelrot="0" vflip="1" valLabRot="0" labelx="0" itemtype="AVR" rotation="0" Ser_Monitor="false" Mhz="16" y="-404" Show_id="true" Program="Tp12.04.hex" id="atmega328-1" hflip="1" labely="-20" valLabely="0" objectName="atmega328-1" valLabelx="0" Ser_Port="false"/>
+ 
+Connector-17: 
+<item x="-540" startpinid="atmega328-1-PD0" labelrot="0" vflip="1" valLabRot="0" labelx="-16" enodeid="enode-17" itemtype="Connector" rotation="0" y="-388" Show_id="false" id="Connector-17" hflip="1" labely="-24" valLabely="0" endpinid="Oscope-2-PinP" objectName="Connector-17" pointList="-540,-388,-548,-388,-548,-444,-460,-444,-460,-332,-444,-332" valLabelx="0"/>
+ 
+PlotterWidget-5: 
+<item accessibleName="" updatesEnabled="true" isActiveWindow="true" fullScreen="false" childrenRect="" mouseTracking="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" minimumWidth="200" x="0" sizeHint="" minimized="false" focus="false" windowOpacity="1" height="200" MaxVolt="500" geometry="" width="200" pos="" windowModified="false" accessibleDescription="" layoutDirection="0" sizePolicy="" windowFilePath="" frameGeometry="" modal="false" autoFillBackground="false" itemtype="Plotter" palette="" maximumHeight="200" enabled="true" windowModality="0" minimumHeight="200" focusPolicy="0" contextMenuPolicy="1" MinVolt="-500" toolTip="" cursor="" childrenRegion="" rect="" minimumSizeHint="" maximized="false" normalGeometry="" windowIconText="" windowTitle="" windowIcon="" acceptDrops="false" locale="" sizeIncrement="" y="0" whatsThis="" inputMethodHints="0" statusTip="" size="" minimumSize="" baseSize="" styleSheet="" visible="false" maximumWidth="1000" objectName="PlotterWidget-5" toolTipDuration="-1" maximumSize="" frameSize=""/>
+ 
+SerialPortWidget-6: 
+<item accessibleName="" updatesEnabled="true" isActiveWindow="true" fullScreen="false" childrenRect="" mouseTracking="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" minimumWidth="0" x="0" sizeHint="" minimized="false" focus="false" windowOpacity="1" height="141" geometry="" width="313" pos="" windowModified="false" accessibleDescription="" layoutDirection="0" sizePolicy="" windowFilePath="" frameGeometry="" modal="false" autoFillBackground="false" itemtype="SerialPort" palette="" maximumHeight="170" enabled="true" windowModality="0" minimumHeight="0" focusPolicy="0" contextMenuPolicy="1" toolTip="" SettingsProp="COM1,0,3,0,0,0" cursor="" childrenRegion="" rect="" minimumSizeHint="" maximized="false" normalGeometry="" windowIconText="" windowTitle="Settings" windowIcon="" acceptDrops="false" locale="" sizeIncrement="" y="0" whatsThis="" inputMethodHints="0" statusTip="" size="" minimumSize="" baseSize="" styleSheet="" visible="false" maximumWidth="450" objectName="SerialPortWidget-6" toolTipDuration="-1" maximumSize="" frameSize=""/>
+ 
+</circuit>
