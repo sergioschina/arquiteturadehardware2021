@@ -1,0 +1,5 @@
+
+AVRASM ver. 2.2.8  c:\users\marcos rigueiral\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm Wed Apr 21 16:17:33 2021
+
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc'
+c:\users\marcos rigueiral\Documents\Atmel Studio\7.0\AssemblerApplication2\AssemblerApplication2\main.asm(14): error: Cannot find include file: atmega328p.inc
