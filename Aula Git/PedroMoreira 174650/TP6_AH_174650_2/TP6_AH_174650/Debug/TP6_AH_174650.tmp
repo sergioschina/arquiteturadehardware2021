@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Sueli\Documents\Atmel Studio\7.0\TP6_AH_174650\TP6_AH_174650\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Sueli\Documents\Atmel Studio\7.0\TP6_AH_174650\TP6_AH_174650\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Sueli\Documents\Atmel Studio\7.0\TP6_AH_174650\TP6_AH_174650\Debug\TP6_AH_174650.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TP6_AH_174650.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TP6_AH_174650.map</FILE>
+  <FILE>TP6_AH_174650.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INICIO><FILE>C:\Users\Sueli\Documents\Atmel Studio\7.0\TP6_AH_174650\TP6_AH_174650\main.asm</FILE><LINE>10</LINE></INICIO>
+  <divide><FILE>C:\Users\Sueli\Documents\Atmel Studio\7.0\TP6_AH_174650\TP6_AH_174650\main.asm</FILE><LINE>30</LINE></divide>
+  <resto><FILE>C:\Users\Sueli\Documents\Atmel Studio\7.0\TP6_AH_174650\TP6_AH_174650\main.asm</FILE><LINE>37</LINE></resto>
+ </LABELS>
+</ASSEMBLER_INFO>
