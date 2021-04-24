@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\User\OneDrive\햞ea de Trabalho\TP06 - 152921\TP06 - 152921\TP06 - 152921\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\User\OneDrive\햞ea de Trabalho\TP06 - 152921\TP06 - 152921\TP06 - 152921\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\User\OneDrive\햞ea de Trabalho\TP06 - 152921\TP06 - 152921\TP06 - 152921\Debug\TP06 - 152921.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TP06 - 152921.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TP06 - 152921.map</FILE>
+  <FILE>TP06 - 152921.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INICIO><FILE>C:\Users\User\OneDrive\햞ea de Trabalho\TP06 - 152921\TP06 - 152921\TP06 - 152921\main.asm</FILE><LINE>44</LINE></INICIO>
+  <LOOP><FILE>C:\Users\User\OneDrive\햞ea de Trabalho\TP06 - 152921\TP06 - 152921\TP06 - 152921\main.asm</FILE><LINE>53</LINE></LOOP>
+ </LABELS>
+</ASSEMBLER_INFO>
