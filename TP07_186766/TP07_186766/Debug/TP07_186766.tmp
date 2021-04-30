@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Gustavo\Desktop\Programação\Códigos\ASM\TP07_186766\TP07_186766\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Gustavo\Desktop\Programação\Códigos\ASM\TP07_186766\TP07_186766\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:\Users\Gustavo\Desktop\Programação\Códigos\ASM\TP07_186766\TP07_186766\atmega328p.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Gustavo\Desktop\Programação\Códigos\ASM\TP07_186766\TP07_186766\Debug\TP07_186766.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TP07_186766.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TP07_186766.map</FILE>
+  <FILE>TP07_186766.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INICIO><FILE>C:\Users\Gustavo\Desktop\Programação\Códigos\ASM\TP07_186766\TP07_186766\main.asm</FILE><LINE>36</LINE></INICIO>
+  <loop_div><FILE>C:\Users\Gustavo\Desktop\Programação\Códigos\ASM\TP07_186766\TP07_186766\main.asm</FILE><LINE>47</LINE></loop_div>
+  <val_zerado><FILE>C:\Users\Gustavo\Desktop\Programação\Códigos\ASM\TP07_186766\TP07_186766\main.asm</FILE><LINE>57</LINE></val_zerado>
+  <val_n_zero><FILE>C:\Users\Gustavo\Desktop\Programação\Códigos\ASM\TP07_186766\TP07_186766\main.asm</FILE><LINE>55</LINE></val_n_zero>
+  <fim_div><FILE>C:\Users\Gustavo\Desktop\Programação\Códigos\ASM\TP07_186766\TP07_186766\main.asm</FILE><LINE>59</LINE></fim_div>
+ </LABELS>
+</ASSEMBLER_INFO>
