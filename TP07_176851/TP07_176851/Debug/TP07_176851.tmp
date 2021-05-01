@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\maluc\Desktop\João Paulo\RepositoriosGit\arquiteturadehardware2021\TP07_176851\TP07_176851\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\maluc\Desktop\João Paulo\RepositoriosGit\arquiteturadehardware2021\TP07_176851\TP07_176851\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\maluc\Desktop\João Paulo\RepositoriosGit\arquiteturadehardware2021\TP07_176851\TP07_176851\Debug\TP07_176851.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TP07_176851.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TP07_176851.map</FILE>
+  <FILE>TP07_176851.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INICIO><FILE>C:\Users\maluc\Desktop\João Paulo\RepositoriosGit\arquiteturadehardware2021\TP07_176851\TP07_176851\main.asm</FILE><LINE>66</LINE></INICIO>
+  <prepara_multiplicacao><FILE>C:\Users\maluc\Desktop\João Paulo\RepositoriosGit\arquiteturadehardware2021\TP07_176851\TP07_176851\main.asm</FILE><LINE>105</LINE></prepara_multiplicacao>
+  <prepara_divisao><FILE>C:\Users\maluc\Desktop\João Paulo\RepositoriosGit\arquiteturadehardware2021\TP07_176851\TP07_176851\main.asm</FILE><LINE>87</LINE></prepara_divisao>
+  <LOOP><FILE>C:\Users\maluc\Desktop\João Paulo\RepositoriosGit\arquiteturadehardware2021\TP07_176851\TP07_176851\main.asm</FILE><LINE>83</LINE></LOOP>
+  <divisao><FILE>C:\Users\maluc\Desktop\João Paulo\RepositoriosGit\arquiteturadehardware2021\TP07_176851\TP07_176851\main.asm</FILE><LINE>93</LINE></divisao>
+  <fim_divisao><FILE>C:\Users\maluc\Desktop\João Paulo\RepositoriosGit\arquiteturadehardware2021\TP07_176851\TP07_176851\main.asm</FILE><LINE>100</LINE></fim_divisao>
+  <multiplicacao><FILE>C:\Users\maluc\Desktop\João Paulo\RepositoriosGit\arquiteturadehardware2021\TP07_176851\TP07_176851\main.asm</FILE><LINE>108</LINE></multiplicacao>
+ </LABELS>
+</ASSEMBLER_INFO>
