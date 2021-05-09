@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\cadus\Desktop\aula1\aula1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>A:/7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>A:\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\cadus\Desktop\aula1\aula1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>A:/7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:\Users\cadus\Desktop\aula1\aula1\delay.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\cadus\Desktop\aula1\aula1\Debug\aula1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>aula1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>aula1.map</FILE>
+  <FILE>aula1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INICIO><FILE>C:\Users\cadus\Desktop\aula1\aula1\main.asm</FILE><LINE>20</LINE></INICIO>
+  <LOOP><FILE>C:\Users\cadus\Desktop\aula1\aula1\main.asm</FILE><LINE>24</LINE></LOOP>
+  <delay_1ms><FILE>C:\Users\cadus\Desktop\aula1\aula1\delay.asm</FILE><LINE>10</LINE></delay_1ms>
+  <delay_5ms><FILE>C:\Users\cadus\Desktop\aula1\aula1\delay.asm</FILE><LINE>1</LINE></delay_5ms>
+  <delay_1ms1><FILE>C:\Users\cadus\Desktop\aula1\aula1\delay.asm</FILE><LINE>13</LINE></delay_1ms1>
+ </LABELS>
+</ASSEMBLER_INFO>
