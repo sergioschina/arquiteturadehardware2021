@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\TP8_171912\TP8_171912\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Users\ailto\Desktop\Faculdade\Programas\MICROCHIP Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Users\ailto\Desktop\Faculdade\Programas\MICROCHIP Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\TP8_171912\TP8_171912\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Users\ailto\Desktop\Faculdade\Programas\MICROCHIP Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\TP8_171912\TP8_171912\Debug\TP8_171912.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TP8_171912.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TP8_171912.map</FILE>
+  <FILE>TP8_171912.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <preencher><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\TP8_171912\TP8_171912\main.asm</FILE><LINE>78</LINE></preencher>
+  <limpa><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\TP8_171912\TP8_171912\main.asm</FILE><LINE>86</LINE></limpa>
+  <limite><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\TP8_171912\TP8_171912\main.asm</FILE><LINE>90</LINE></limite>
+  <final><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\TP8_171912\TP8_171912\main.asm</FILE><LINE>101</LINE></final>
+  <Fim><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\TP8_171912\TP8_171912\main.asm</FILE><LINE>105</LINE></Fim>
+ </LABELS>
+</ASSEMBLER_INFO>
