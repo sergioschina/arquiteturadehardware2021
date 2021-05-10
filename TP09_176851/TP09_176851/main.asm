@@ -1,0 +1,34 @@
+;
+; TP09_176851.asm
+;
+; Created: 10/05/2021 11:48:40
+; Author : JoaoPaulo_176851
+;
+
+
+; Replace with your application code
+;.INCLUDE "m328pdef.inc"
+.nolist
+.list
+
+.ORG 0x0000
+
+    rjmp INICIO
+
+    .def temp = r16
+
+INICIO:
+    ldi r16, 0xff
+    out ddrb, r16
+
+restart:
+    ldi r17,0x00
+
+main:
+    out portb,r17
+    inc r17
+    cpi r17,60
+    breq restart
+    rjmp main
+
+.EXIT

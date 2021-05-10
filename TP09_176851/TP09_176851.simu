@@ -1,0 +1,43 @@
+<circuit animate="0" Simu_Step_nS="1000" noLinAcc="5" Speed_sps="1000000" type="simulide_0.4" reactStep="50" Speed_per="100">
+
+Unique  Id: ResistorDip-2: 
+Circuit Id: ResistorDip-2
+<item valLabely="-26" boardRot="-1000000" circRot="6.7903865320374774e-312" Resistance="470" Unit=" Ω" labely="-40" objectName="ResistorDip-2" boardPos="-1e+06,-1e+06" itemtype="ResistorDip" labelrot="0" circPos="0,0" hflip="1" Size="8" Show_id="false" vflip="1" x="-412" Show_res="true" id="ResistorDip-2" rotation="0" valLabelx="5" y="-304" valLabRot="90" mainComp="false" labelx="-24"/>
+
+Unique  Id: atmega328-1: 
+Circuit Id: atmega328-1
+<item valLabely="0" boardRot="-1000000" circRot="0" labely="-20" objectName="atmega328-1" boardPos="-1e+06,-1e+06" itemtype="AVR" labelrot="0" circPos="0,0" hflip="1" eeprom="" Mhz="16" varList="" Show_id="true" vflip="1" x="-524" id="atmega328-1" rotation="0" valLabelx="0" Auto_Load="false" Init_gdb="false" y="-380" valLabRot="0" mainComp="false" Logic_Symbol="false" labelx="0" Program=""/>
+
+Unique  Id: Connector-4: 
+Circuit Id: Connector-4
+<item valLabely="0" boardRot="-1000000" pointList="-484,-268,-444,-268,-444,-280,-428,-280" circRot="0" labely="-24" objectName="Connector-4" boardPos="-1e+06,-1e+06" itemtype="Connector" labelrot="0" circPos="0,0" hflip="1" Show_id="false" vflip="1" enodeid="enode-4" x="-484" startpinid="atmega328-1-PB1" id="Connector-4" rotation="0" valLabelx="0" endpinid="ResistorDip-2-resistor6-ePin12" y="-268" valLabRot="0" mainComp="false" labelx="-16"/>
+
+Unique  Id: Connector-5: 
+Circuit Id: Connector-5
+<item valLabely="0" boardRot="-1000000" pointList="-484,-276,-452,-276,-452,-288,-428,-288" circRot="0" labely="-24" objectName="Connector-5" boardPos="-1e+06,-1e+06" itemtype="Connector" labelrot="0" circPos="0,0" hflip="1" Show_id="false" vflip="1" enodeid="enode-5" x="-484" startpinid="atmega328-1-PB2" id="Connector-5" rotation="0" valLabelx="0" endpinid="ResistorDip-2-resistor5-ePin10" y="-276" valLabRot="0" mainComp="false" labelx="-16"/>
+
+Unique  Id: Connector-6: 
+Circuit Id: Connector-6
+<item valLabely="0" boardRot="-1000000" pointList="-484,-284,-460,-284,-460,-296,-428,-296" circRot="0" labely="-24" objectName="Connector-6" boardPos="-1e+06,-1e+06" itemtype="Connector" labelrot="0" circPos="0,0" hflip="1" Show_id="false" vflip="1" enodeid="enode-6" x="-484" startpinid="atmega328-1-PB3" id="Connector-6" rotation="0" valLabelx="0" endpinid="ResistorDip-2-resistor4-ePin8" y="-284" valLabRot="0" mainComp="false" labelx="-16"/>
+
+Unique  Id: Connector-7: 
+Circuit Id: Connector-7
+<item valLabely="0" boardRot="-1000000" pointList="-484,-292,-468,-292,-468,-304,-428,-304" circRot="0" labely="-24" objectName="Connector-7" boardPos="-1e+06,-1e+06" itemtype="Connector" labelrot="0" circPos="0,0" hflip="1" Show_id="false" vflip="1" enodeid="enode-7" x="-484" startpinid="atmega328-1-PB4" id="Connector-7" rotation="0" valLabelx="0" endpinid="ResistorDip-2-resistor3-ePin6" y="-292" valLabRot="0" mainComp="false" labelx="-16"/>
+
+Unique  Id: Connector-8: 
+Circuit Id: Connector-8
+<item valLabely="0" boardRot="-1000000" pointList="-484,-300,-476,-300,-476,-312,-428,-312" circRot="0" labely="-24" objectName="Connector-8" boardPos="-1e+06,-1e+06" itemtype="Connector" labelrot="0" circPos="0,0" hflip="1" Show_id="false" vflip="1" enodeid="enode-8" x="-484" startpinid="atmega328-1-PB5" id="Connector-8" rotation="0" valLabelx="0" endpinid="ResistorDip-2-resistor2-ePin4" y="-300" valLabRot="0" mainComp="false" labelx="-16"/>
+
+Unique  Id: Connector-9: 
+Circuit Id: Connector-9
+<item valLabely="0" boardRot="-1000000" pointList="-532,-308,-540,-308,-540,-388,-476,-388,-476,-320,-428,-320" circRot="6.0087640385753211e+271" labely="-24" objectName="Connector-9" boardPos="-1e+06,-1e+06" itemtype="Connector" labelrot="0" circPos="0,0" hflip="1" Show_id="false" vflip="1" enodeid="enode-9" x="-532" startpinid="atmega328-1-PB6" id="Connector-9" rotation="0" valLabelx="0" endpinid="ResistorDip-2-resistor1-ePin2" y="-308" valLabRot="0" mainComp="false" labelx="-16"/>
+
+Unique  Id: Connector-10: 
+Circuit Id: Connector-10
+<item valLabely="0" boardRot="-1000000" pointList="-428,-328,-468,-328,-468,-396,-548,-396,-548,-300,-532,-300" circRot="0" labely="-24" objectName="Connector-10" boardPos="-1e+06,-1e+06" itemtype="Connector" labelrot="0" circPos="0,0" hflip="1" Show_id="false" vflip="1" enodeid="enode-10" x="-428" startpinid="ResistorDip-2-resistor0-ePin0" id="Connector-10" rotation="0" valLabelx="0" endpinid="atmega328-1-PB7" y="-328" valLabRot="0" mainComp="false" labelx="-16"/>
+
+Unique  Id: Connector-3: 
+Circuit Id: Connector-3
+<item valLabely="0" boardRot="-1000000" pointList="-532,-268,-548,-268,-548,-252,-436,-252,-436,-272,-428,-272" circRot="0" labely="-24" objectName="Connector-3" boardPos="-1e+06,-1e+06" itemtype="Connector" labelrot="0" circPos="0,0" hflip="1" Show_id="false" vflip="1" enodeid="enode-3" x="-532" startpinid="atmega328-1-PB0" id="Connector-3" rotation="0" valLabelx="0" endpinid="ResistorDip-2-resistor7-ePin14" y="-268" valLabRot="0" mainComp="false" labelx="-16"/>
+ 
+</circuit>
