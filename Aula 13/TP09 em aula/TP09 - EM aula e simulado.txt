@@ -1,0 +1,12 @@
+.org 0x0000
+	ldi r16,0xff
+	out ddrb,r16
+restart:
+	ldi r17,0x00
+top: 
+	out portb,r17
+	rcall delay_sec
+	inc r17
+	cpi r17,60
+	breq restart
+	rjmp top
