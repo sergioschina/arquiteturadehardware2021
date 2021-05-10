@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328"</DEVICE>
+ <WORKING_DIR>C:\Users\marca\Desktop\Aula 14.04\TP\TP06_Assembler\TP9\TP9\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>F:/Microchip\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>F:\Microchip\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP06_Assembler\TP9\TP9\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>F:/Microchip\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP06_Assembler\TP9\TP9\Debug\TP9.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TP9.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TP9.map</FILE>
+  <FILE>TP9.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP06_Assembler\TP9\TP9\main.asm</FILE><LINE>14</LINE></start>
+  <INICIO><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP06_Assembler\TP9\TP9\main.asm</FILE><LINE>18</LINE></INICIO>
+  <restart><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP06_Assembler\TP9\TP9\main.asm</FILE><LINE>22</LINE></restart>
+  <main><FILE>C:\Users\marca\Desktop\Aula 14.04\TP\TP06_Assembler\TP9\TP9\main.asm</FILE><LINE>25</LINE></main>
+ </LABELS>
+</ASSEMBLER_INFO>
