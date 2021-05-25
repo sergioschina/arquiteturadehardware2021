@@ -2,7 +2,7 @@
 ; Tp10.asm
 ;
 ; Created: 24/05/2021 21:33:01
-; Author : marca
+; Author : Caio Figueiredo, Luis Eduardo Rodrigues, Marcos Pinto, Uriel Andrade
 ;
 
 
