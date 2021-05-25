@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\gipim\Desktop\TP - AULA 14 - ADC\TP - AULA 14 - ADC\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\gipim\Desktop\TP - AULA 14 - ADC\TP - AULA 14 - ADC\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\gipim\Desktop\TP - AULA 14 - ADC\TP - AULA 14 - ADC\Debug\TP - AULA 14 - ADC.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TP - AULA 14 - ADC.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TP - AULA 14 - ADC.map</FILE>
+  <FILE>TP - AULA 14 - ADC.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START_CONVERSION><FILE>C:\Users\gipim\Desktop\TP - AULA 14 - ADC\TP - AULA 14 - ADC\main.asm</FILE><LINE>22</LINE></START_CONVERSION>
+  <CONVERSION_IN_PROGRESS><FILE>C:\Users\gipim\Desktop\TP - AULA 14 - ADC\TP - AULA 14 - ADC\main.asm</FILE><LINE>29</LINE></CONVERSION_IN_PROGRESS>
+  <SET_OUTPUT><FILE>C:\Users\gipim\Desktop\TP - AULA 14 - ADC\TP - AULA 14 - ADC\main.asm</FILE><LINE>37</LINE></SET_OUTPUT>
+  <VerificaLow><FILE>C:\Users\gipim\Desktop\TP - AULA 14 - ADC\TP - AULA 14 - ADC\main.asm</FILE><LINE>67</LINE></VerificaLow>
+  <Verifica30><FILE>C:\Users\gipim\Desktop\TP - AULA 14 - ADC\TP - AULA 14 - ADC\main.asm</FILE><LINE>73</LINE></Verifica30>
+  <ApagaLed><FILE>C:\Users\gipim\Desktop\TP - AULA 14 - ADC\TP - AULA 14 - ADC\main.asm</FILE><LINE>57</LINE></ApagaLed>
+  <AcendeLed><FILE>C:\Users\gipim\Desktop\TP - AULA 14 - ADC\TP - AULA 14 - ADC\main.asm</FILE><LINE>62</LINE></AcendeLed>
+ </LABELS>
+</ASSEMBLER_INFO>
