@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\marca\Desktop\Tp10\Tp10\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>F:/Microchip\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>F:\Microchip\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\marca\Desktop\Tp10\Tp10\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>F:/Microchip\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\marca\Desktop\Tp10\Tp10\Debug\Tp10.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Tp10.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Tp10.map</FILE>
+  <FILE>Tp10.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Inicializacao><FILE>C:\Users\marca\Desktop\Tp10\Tp10\main.asm</FILE><LINE>17</LINE></Inicializacao>
+  <Coversao><FILE>C:\Users\marca\Desktop\Tp10\Tp10\main.asm</FILE><LINE>23</LINE></Coversao>
+  <SET_OUTPUT><FILE>C:\Users\marca\Desktop\Tp10\Tp10\main.asm</FILE><LINE>29</LINE></SET_OUTPUT>
+  <Verifica><FILE>C:\Users\marca\Desktop\Tp10\Tp10\main.asm</FILE><LINE>48</LINE></Verifica>
+  <Verifica30><FILE>C:\Users\marca\Desktop\Tp10\Tp10\main.asm</FILE><LINE>54</LINE></Verifica30>
+  <Acender><FILE>C:\Users\marca\Desktop\Tp10\Tp10\main.asm</FILE><LINE>38</LINE></Acender>
+  <Apagar><FILE>C:\Users\marca\Desktop\Tp10\Tp10\main.asm</FILE><LINE>43</LINE></Apagar>
+ </LABELS>
+</ASSEMBLER_INFO>
