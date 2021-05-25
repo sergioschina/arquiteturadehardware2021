@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Users\ailto\Desktop\Faculdade\Programas\MICROCHIP Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Users\ailto\Desktop\Faculdade\Programas\MICROCHIP Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Users\ailto\Desktop\Faculdade\Programas\MICROCHIP Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\Debug\T10_171912.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>T10_171912.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>T10_171912.map</FILE>
+  <FILE>T10_171912.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <configADC><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\main.asm</FILE><LINE>14</LINE></configADC>
+  <loop><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\main.asm</FILE><LINE>21</LINE></loop>
+  <adc_read_loop><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\main.asm</FILE><LINE>26</LINE></adc_read_loop>
+  <read_adc_value><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\main.asm</FILE><LINE>31</LINE></read_adc_value>
+  <Comp_High><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\main.asm</FILE><LINE>35</LINE></Comp_High>
+  <Comp_Low><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\main.asm</FILE><LINE>54</LINE></Comp_Low>
+  <Comp_30><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\main.asm</FILE><LINE>44</LINE></Comp_30>
+  <Apaga_Led><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\main.asm</FILE><LINE>49</LINE></Apaga_Led>
+  <Acende_Led><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\T10_171912\T10_171912\main.asm</FILE><LINE>59</LINE></Acende_Led>
+ </LABELS>
+</ASSEMBLER_INFO>
