@@ -1,0 +1,58 @@
+.INCLUDE "m328pdef.inc"
+
+.DEF  temp =r16
+
+.ORG 0x000
+RJMP INICIO
+
+INICIO:
+    EOR r1, r1
+    OUT SREG, r1
+    LDI temp, HIGH(RAMEND)
+    OUT SPH, r16
+    LDI temp, LOW(RAMEND)
+    OUT SPL, r16
+
+SETUP:
+    LDI temp, 0b00000000 
+    OUT DDRC, temp 
+	LDI temp, 0b11111111
+    OUT DDRD, temp
+
+CONFIGURA_ADC0:  
+    LDI temp, 0x00
+    STS ADMUX, temp
+
+    LDI temp, (1<<ADEN)|(1<<ADPS0)|(1<<ADPS1)|(1<<ADPS2)
+    STS ADCSRA, temp 
+
+LOOP:
+    LDS temp,ADCSRA
+    ORI temp, (1<<ADSC)
+    STS ADCSRA, temp
+
+READ_ADC:
+    LDS temp,ADCSRA
+    SBRC temp,ADSC 
+    RJMP READ_ADC
+
+READ_ADC_VALUE: 
+    LDS r24,ADCL
+    LDS r25,ADCH 
+	
+HIGHER_22:
+	ANDI r24, 0b01110000
+	CPI r24, 0b01110000
+	BREQ LED_GREEN
+	BRNE LED_GREEN_OFF
+	RJMP LOOP
+
+LED_GREEN:
+	LDI temp, 255
+	OUT PORTD,temp
+	RJMP LOOP
+
+LED_GREEN_OFF:
+	LDI temp, 0
+	OUT PORTD,temp
+	RJMP LOOP

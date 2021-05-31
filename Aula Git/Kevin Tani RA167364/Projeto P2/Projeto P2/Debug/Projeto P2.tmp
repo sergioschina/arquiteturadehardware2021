@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\Debug\Projeto P2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Projeto P2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Projeto P2.map</FILE>
+  <FILE>Projeto P2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INICIO><FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\main.asm</FILE><LINE>8</LINE></INICIO>
+  <SETUP><FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\main.asm</FILE><LINE>16</LINE></SETUP>
+  <CONFIGURA_ADC0><FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\main.asm</FILE><LINE>22</LINE></CONFIGURA_ADC0>
+  <LOOP><FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\main.asm</FILE><LINE>29</LINE></LOOP>
+  <READ_ADC><FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\main.asm</FILE><LINE>34</LINE></READ_ADC>
+  <READ_ADC_VALUE><FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\main.asm</FILE><LINE>39</LINE></READ_ADC_VALUE>
+  <HIGHER_22><FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\main.asm</FILE><LINE>43</LINE></HIGHER_22>
+  <LED_GREEN><FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\main.asm</FILE><LINE>50</LINE></LED_GREEN>
+  <LED_GREEN_OFF><FILE>C:\Users\Kevin\Desktop\TPs - Arquitetura de Hardware\Projeto P2\Projeto P2\main.asm</FILE><LINE>55</LINE></LED_GREEN_OFF>
+ </LABELS>
+</ASSEMBLER_INFO>
