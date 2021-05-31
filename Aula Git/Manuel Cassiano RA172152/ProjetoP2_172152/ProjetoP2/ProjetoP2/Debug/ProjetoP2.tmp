@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\Debug\ProjetoP2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ProjetoP2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ProjetoP2.map</FILE>
+  <FILE>ProjetoP2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\main.asm</FILE><LINE>14</LINE></start>
+  <setup><FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\main.asm</FILE><LINE>22</LINE></setup>
+  <configADC0><FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\main.asm</FILE><LINE>30</LINE></configADC0>
+  <LOOP><FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\main.asm</FILE><LINE>37</LINE></LOOP>
+  <adc_read_loop><FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\main.asm</FILE><LINE>42</LINE></adc_read_loop>
+  <read_ADC_value><FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\main.asm</FILE><LINE>47</LINE></read_ADC_value>
+  <display_ADC_value><FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\main.asm</FILE><LINE>51</LINE></display_ADC_value>
+  <desliga><FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\main.asm</FILE><LINE>56</LINE></desliga>
+  <acende><FILE>C:\Users\Manuel\Desktop\ProjetoP2_172152\ProjetoP2\ProjetoP2\main.asm</FILE><LINE>61</LINE></acende>
+ </LABELS>
+</ASSEMBLER_INFO>
