@@ -1,0 +1,37 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Users\ailto\Desktop\Faculdade\Programas\MICROCHIP Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Users\ailto\Desktop\Faculdade\Programas\MICROCHIP Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Users\ailto\Desktop\Faculdade\Programas\MICROCHIP Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\delay.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\Debug\Projeto_Sensor.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Projeto_Sensor.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Projeto_Sensor.map</FILE>
+  <FILE>Projeto_Sensor.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Inicio><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\main.asm</FILE><LINE>22</LINE></Inicio>
+  <Compara><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\main.asm</FILE><LINE>30</LINE></Compara>
+  <delay_1ms><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\delay.asm</FILE><LINE>54</LINE></delay_1ms>
+  <verifica><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\main.asm</FILE><LINE>36</LINE></verifica>
+  <Acende_Lamp><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\main.asm</FILE><LINE>42</LINE></Acende_Lamp>
+  <delay_10s><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\delay.asm</FILE><LINE>2</LINE></delay_10s>
+  <delay_1s><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\delay.asm</FILE><LINE>15</LINE></delay_1s>
+  <delay_100ms><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\delay.asm</FILE><LINE>28</LINE></delay_100ms>
+  <delay_10ms><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\delay.asm</FILE><LINE>41</LINE></delay_10ms>
+  <delay_1ms1><FILE>C:\Users\ailto\Desktop\Faculdade\Eng_Comp\5 Semestre\Arquitetura_H\Docs Microchip Studio\Projeto_Sensor\Projeto_Sensor\delay.asm</FILE><LINE>57</LINE></delay_1ms1>
+ </LABELS>
+</ASSEMBLER_INFO>
